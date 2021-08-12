@@ -1,0 +1,1528 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+form table td {
+	border: none!important;
+	
+}
+html, body {
+    margin:0;
+    padding:0;
+    background:#FFFFFF;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #102E7B;
+	background: #FFFFFF;
+	/*text-align: center;*/
+
+}
+
+@media print 
+  {
+    html, body 
+    {
+      color: black;
+    }
+  }
+  
+#container
+{
+	border-left:0;
+	border-right:0;
+	border-bottom:0;
+	background-color:#FFFFFF;
+	width:720px; /*was 760px*/
+	text-align:center; /*was left*/
+	margin:0 auto 10px auto;
+	padding: 0px 20px 20px 20px;
+	margin:auto;
+	background: white; 
+	float: none;
+	overflow: hidden; 
+}
+
+#innermain
+{
+	width:auto;
+	padding:0;
+	margin:0;
+	overflow:hidden
+}
+
+
+
+#airportlogo {
+	width:760px;
+	margin:0 auto 0 auto;
+	border-left:0;
+	border-right:0;
+	margin: 20px auto;
+}
+
+#airportlogo img {display:block}
+
+  
+/*#airportlogo
+{
+	text-align: left; 
+	margin: auto;
+	width: 760px;
+}*/
+
+.bl 
+{
+	
+	width: 100%;
+	margin:0px auto 0px auto;
+	padding:7px 0 0px 0;
+	overflow:hidden;
+	text-align:left;
+	border-left:0;
+	border-right:0;
+	background-color:#004990;
+}
+
+.top_links
+{
+	/*background:url(../images/menu-container-bkg.jpg) repeat-x;*/
+	width: 472px;
+	height:33px;
+	margin:0px auto;
+	padding:0 0 10px 20px;
+	overflow:hidden;
+	text-align:left;
+	/*border-right:solid 1px black;
+	border-left:solid 1px black;*/
+}
+
+.top_links a
+{
+	color:#666666;
+	text-decoration:none;
+	display:block;
+	/*border-bottom:#CCCCCC 3px solid;*/	
+	float:left;
+	margin-left:16px;
+	/*padding:10px 0px 3px 0px;*/
+}
+
+/*DIV#pagefooter
+{
+	height:160px;
+	background:url(../images/footer-line.gif) repeat-x 0px 20px;
+	padding-top:20px;
+}*/
+.linecolour
+{
+	color:#747577;  /*from .availabilitytable_carparkheadercell*/
+	background-color:#747577;  /*from .availabilitytable_carparkheadercell*/
+}
+
+.standardbox
+{
+	border:#CCCCCC 2px solid;  /*from .availabilitytable_carparkheadercell*/
+	padding:15px 15px 0 15px
+}
+
+.inversecolour
+{
+	color:#ffffff;  /*from .availabilitytable_carparkheadercell*/
+}
+
+.addaddonstobasket
+{
+	width:688px;
+	text-align:right;
+	background-color:#FFFFFF;  
+	padding:5px 5px 5px 5px;
+	margin:auto;
+}
+
+.removetopborder
+{
+	border-top:0px;
+}
+
+.showhideclass
+{
+	width:688px;
+	min-height:20px;
+	background-color:#FFFFFF;
+	border-bottom:solid 1px #747577;  /*from .availabilitytable_carparkheadercell*/
+	text-align:left;
+	vertical-align:middle;
+	padding: 5px 5px 5px 5px;
+	clear:both;
+	margin:auto;
+}
+/*need to also add to sections starting with #ccdentry_paymentinformation label to add classes to end of each line*/
+
+.bookingsofarclass2 a, .carparkinfolink, .bookingsofarclass a
+{
+	color:#3399cc;
+	text-decoration:none;
+}
+
+ul.languagelinks
+{
+	font-size: 18px;
+	margin: 0px auto 18px auto;
+	width: 720px;
+	/*border-left:#c9ddeb 2px solid;
+	border-right:#c9ddeb 2px solid;*/
+	text-align:right;
+	border-right:0;
+	border-left:0;
+	padding-top:0;
+}
+
+ul.languagelinks a 
+{
+	color: #3399cc; 
+	border:none;
+	text-decoration: none;
+}
+
+ul.languagelinks a:hover {
+	text-decoration:underline;
+}
+
+ul.languagelinks li 
+{
+	
+	color: gray;
+	font-size: 9pt;
+	display: inline-block;
+	background: #f0f7ff;
+	padding: 8px 12px;
+	
+
+}
+
+img 
+{
+	border: none
+}	
+
+.hidden 
+{
+	display: none;
+}
+
+
+
+	.topmenu_displaypreviousbookings {float:left;text-align:left;padding-left:20px}
+
+
+	.topmenu_managemybooking {float:left;text-align:left;padding-left:30px}
+	
+	
+	.topmenu_helpandfaq {float:right;text-align:left;padding-right:20px}
+	
+	
+
+	.topmenu_displaypreviousbookings a, .topmenu_managemybooking a, .topmenu_helpandfaq a, .topmenu_carparkinfoandmap a {display: block}
+
+
+/*.bl 
+{
+	background: url(../images/topnav-background.gif) 0 100% no-repeat; 
+	width: 760px;
+	text-align: center;
+	height: 33px;
+	margin:0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+}*/
+
+.clear 
+{
+	font-size: 1px; height: 1px
+}
+
+.sitefooter a
+{
+float:left;
+width:115px;
+height:54px; 
+margin:25px;
+background:URL(../../../furniture/chauntry_logo_hover.gif) no-repeat left top;
+}
+.sitefooter a:hover
+{
+background-position:0px -53px;
+}
+
+#footer
+{
+	width:748px;
+	color:#ACACAC;
+	font-size:8pt;
+	margin: 10px auto 0 auto;
+	text-align:right;
+	padding: 5px;
+	background-color:#ffffff;
+}
+
+#footer a
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.entrypage_contentbox
+{
+	background-color:#FFFFFF;
+	/*width:690px;*/
+	text-align:left;
+	/*padding:5px 5px 5px 5px;*/
+	margin:auto;
+	/*border:solid 1px black;*/
+	position:relative;
+}
+
+.entrypage_quickquotetext
+{
+	font-weight:bold;
+	font-style:italic;
+	font-size:23px;
+	margin-bottom:4px;
+	margin-top:0px;
+}
+
+.entrypage_promotionalcodecontainer
+{
+	width:210px;
+	float:left;
+}
+
+.entrypage_departuredate, .entrypage_returndate, .entrypage_promotionalcode
+{
+	width:250px;
+	float:left;
+	margin-top:3px;
+}
+
+
+.entrypage_departuretime, .entrypage_returntime, .entrypage_getmyquotebox, .entrypage_numberofcoachtickets
+{
+	width:110px;
+	float:right;
+	margin-top:3px;
+}
+
+.entrypage_carparking_quickquotebox
+{
+	width:364px;
+	padding:10px 10px 10px 10px;
+	float:left;
+	height:229px;
+	margin-right: 0px;
+	margin-top:10px;
+}
+
+.entrypage_bottomadboxes_container
+{
+	width:170px;
+	height:90px;
+	margin-top:10px;
+	/*margin-bottom:10px;*/
+	background-color:#FFFFFF;
+	float:left;
+}
+
+.entrypage_bottomadboxes_container_fasttrack
+{
+	width:228px;
+	height:108px;
+	margin-top:10px;
+	/*margin-bottom:10px;*/
+	background-color:#FFFFFF;
+	float:left;
+}
+
+.entrypage_bottomadboxes_container_lounge
+{
+	width:228px;
+	height:108px;
+	margin-top:10px;
+	/*margin-bottom:10px;*/
+	background-color:#FFFFFF;
+	float:left;
+}
+
+.entrypage_bottomadboxes_content
+{
+	width:138px;
+	margin:auto;
+	height:88px;
+	border:solid 1px #000000;
+	background-color:#FFFFFF;
+}
+
+
+.availability_contentbox, .basketsummary_contentbox, .basketcustomerdetails_contentbox, .basketccdentry_contentbox, .basketccdwait_contentbox, .basketconfirmation_contentbox, .faq_contentbox, .tac_contentbox
+{
+	width:700px;
+	text-align:left;
+	margin:auto;
+}
+
+
+.availabilitytable_odd
+{
+	background: #FFFFFF;
+}
+
+.availabilitytable_even
+{
+	background: #f0f7ff;
+}
+
+
+.availabilitytable_carparkheadercell
+{
+	height:auto;
+	background-color:#004990;
+	color:#ffffff;	
+	padding: 3px 0px 5px 20px;
+	font-weight:bold;
+	text-align:left;
+	border-right:0;	
+	vertical-align: middle;
+	font-size: 18px;
+	
+}
+
+.availabilitytable_priceheadercell
+{
+	height:auto;
+	background-color:#004990;
+	color:#ffffff;
+	padding:3px 0px 5px 10px;
+	font-weight:bold;
+	text-align:center;
+	border-right:0;	
+	text-decoration:none;
+	vertical-align: middle;
+}
+
+.availabilitytable_transfertimeheadercell
+{
+	height:auto;
+	background-color:#004990;
+	color:#ffffff;
+	padding:3px 0px 5px 10px;
+	font-weight:bold;
+	text-align:center;
+	border-right:0;	
+	text-decoration:none;
+	vertical-align: middle;
+}
+
+.availabilitytable_bookheadercell
+{
+	height:auto;
+	background-color:#004990;
+	color:#ffffff;
+	padding:3px 0px 5px 10px;
+	font-weight:bold;
+	text-align:center;
+	vertical-align: middle;
+}
+
+.availabilitytable_header_link
+{
+	/*text-decoration:none;*/
+	color:#ffffff;
+}
+
+.crosssellpage_justremovedproductbackgroundcolour
+{
+	background-color:#d7eff9;
+}
+
+.crosssellpage_newproductbackgroundcolour
+{
+	background-color:#dad2c7;
+}
+
+.bookingsofarclass2
+{
+	width: auto;
+	max-width:688px;
+	min-height:20px;
+	background-color:#f0f7ff;
+	border:solid 1px #B2D7FF;
+	border-radius: 8px;
+	text-align: center;
+	vertical-align:middle;
+	padding: 8px 12px;
+	clear:both;
+	margin: auto;
+	font-size: 12px;
+}
+
+.bookingsofarclass
+{
+	width:688px;
+	min-height:20px;
+	background-color:#FFFFFF;
+	border-bottom:solid 1px #747577;
+	text-align:left;
+	vertical-align:middle;
+	padding: 5px 5px 5px 5px;
+	clear:both;
+	margin:auto;
+}
+
+.btn_Checkout
+{
+
+	float:right;
+}
+
+.addaddonstobasket
+{
+	height:25px;
+	margin-top:5px;
+}
+
+/*.bookingsofarclass a
+{
+	color: Red;
+}*/
+
+.bookingsofarclass .spacerone
+{
+	width:23px;
+	float:left;
+	height:35px;
+}
+
+.bookingsofarclass .spacertwo
+{
+	width:90px;
+	float:left;
+	text-align:right;
+	height:35px;	
+}
+
+.bookingsofarclass .spacerthree
+{
+	width:23px;
+	float:left;
+}
+
+.bookingsofarclass .bsfccontent
+{
+	width:602px;
+	float:left;
+	text-align:left;
+	height:25px;
+	padding-top:10px;
+}
+
+.bookingsofarclass .bsfclogo
+{
+	width:80px;
+	padding-right:10px;
+	float:left;
+}
+
+.bookingsofarclass .bsfccontenttwo
+{
+	width:146px;
+	float:left;
+}
+
+.bookingsofarclass .bsfccontentthree
+{
+	width:384px;
+	float:left;
+}
+
+.bookingsofarclass .bsfccontentfour
+{
+	width:132px;
+	float:left;
+	text-align:right;
+}
+
+.bookingsofarclass .bsfccontentfive
+{
+	width:530px;
+	float:left;
+}
+
+.bookingsofarclass .bsfccontentsix
+{
+	width:430px;
+	float:left;
+}
+
+.bookingsofarclass .bsfcupgradecontent
+{
+	width:132px; 
+	float:left;
+	text-align:right;
+}
+
+.bookingsofarclass .bsfccostcontentone
+{
+	width:375px;
+	float:left;
+}
+
+.bookingsofarclass .bsfccostcontenttwo
+{
+	width:146px;
+	float:left;
+	text-align:right;
+}
+
+.bookingsofarclass .bsfccostcontentthree
+{
+	width:141px;
+	float:left;
+	text-align:right;
+}
+
+.bookingsofarclass .bsfcupgradelogo
+{
+	width:80px;
+	padding-right:10px;
+	float:left;
+}
+
+.bookingsofarclass .bsfcupgrademaincontent
+{
+	width:430px;
+	float:left;
+}
+
+.removebutton1
+{
+	font-size: 12px;
+    text-align: center;
+    margin-right: 30px;
+    height: 50px;
+    width: 70px;
+    float: right;
+    padding-top: 5px;
+}
+
+.removebutton1 img
+{
+	margin-bottom:5px;
+}
+
+.removebutton2
+{
+	font-size: 12px;
+    text-align: center;
+    margin-right: 30px;
+    height: 50px;
+    width: 70px;
+    float: right;
+    padding-top: 5px;
+}
+
+.removebutton2 img
+{
+	margin-bottom:5px;
+}
+
+.removebutton3
+{
+	font-size: 12px;
+    text-align: center;
+    margin-right: 30px;
+    height: 50px;
+    width: 70px;
+    float: right;
+    padding-top: 5px;
+}
+
+.removebutton3 img
+{
+	margin-bottom:5px;
+}
+
+.availabilitycell
+{
+	text-align:left;
+	padding-top: 15px;
+	border-right: solid 1px #C0C0C0;	
+}
+
+.availability_carparkname
+{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:22px;
+	margin-bottom: 8px;
+}
+
+.availabilitytableborderright
+{
+	border-right:1px solid #C0C0C0;
+}
+
+.proceedtocheckout
+{
+	width:688px;
+	text-align:right;
+	background-color:#FFFFFF;
+/*	border-left:1px solid #000000;
+	border-bottom:1px solid #000000; 
+	border-right:1px solid #000000;*/
+	padding:5px 5px 5px 5px;
+	margin:auto;
+}
+
+/* customer details page */
+.boxname 
+{
+	font-size:10pt;
+	font-weight:bold;
+	text-align:center;
+	color:#ffffff;
+	background-color:#102e7b;
+	position:relative;
+	left:20px;
+	top:-10px;
+	width:220px;
+	height:25px;
+	border:1px solid #747577;
+	padding-top:5px;
+}
+
+.smallboxname
+{
+	font-size:10pt;
+	font-weight:bold;
+	text-align:center;
+	color:#ffffff;
+	background-color:#102e7b;
+	position:relative;
+	left:20px;
+	top:-10px;
+	width:220px;
+	height:25px;
+	border:1px solid #747577;
+	padding-top:5px;
+}
+
+.basket_confirmationpage_border
+{
+	background-color:#003882;
+	height:5px;
+	margin-left:-20px;
+}
+
+#personaldetails
+{
+	margin-top:10px;
+}
+
+.boxstyle
+{
+	background-color:#FFFFFF;
+	width:698px;
+	/*border:1px solid #000000;*/
+	margin:auto;
+	text-align:left;
+}
+
+.PaymentPage_PersonalDetailsFields
+{
+	margin-top:3px;
+	margin-right:3px;
+	margin-bottom:3px;
+	margin-left:20px;
+}
+
+.PaymentPage_PersonalDetailsFields input
+{
+	width:270px;
+}
+
+#PaymentPage_SaveDetails
+{
+	margin-left:16px;
+	margin-top:20px;
+}
+
+#PaymentPage_ReceiveOurNewsletter
+{
+	margin-left:16px;
+	margin-top:5px;
+}
+
+fieldset#personaldetails, fieldset#vehicledetails, fieldset#yourflightdetails, fieldset#loungeyourflightdetails, fieldset#rememberme
+{
+/*	border:1px solid #0d98C1;
+	width:748px;
+	background-color: #E8F6F9;*/
+	border:0px;
+	text-align:left;
+}
+
+#cusdetails_personaldetails label 
+{
+	width:100%;
+	float:left;
+	padding-right:5px;
+	font-weight:bold;
+	margin-top:5px;
+}
+
+#cusdetails_vehicledetails label 
+{
+	width:150px;
+	margin-left:95px;
+	text-align:right;
+	padding-right:5px;
+	font-weight:bold;
+}
+
+.custdetails_personaldetailsheading
+{
+	width:363px;
+	height:50px;
+	margin-top:-45px;
+	font-size:20pt;
+	font-weight:bold;
+	padding:10px 0 0 20px;
+}
+
+.custdetails_additionaldetailsheading
+{
+	width:363px;
+	height:50px;
+	margin-top:-45px;
+	font-size:20pt;
+	font-weight:bold;
+	padding:10px 0 0 0px;
+}
+
+
+#cusdetails_personaldetails p, #cusdetails_vehicledetails p, #cusdetails_yourflightdetails p, #cusdetails_loungeyourflightdetails p, #cusdetails_rememberme p, #cusdetails_specialoffers p
+{
+	margin:3px;
+}
+
+#cusdetails_personaldetails p.shiftright
+{
+	margin: 5px 0px 10px 200px;
+}
+
+.fieldsmarked
+{
+	font-weight: bold;
+}
+
+#cusdetails_personaldetails p.enterpostcode
+{
+	font-weight:bold;
+	padding-top: 6px;
+	margin: 5px 0px 10px 269px;
+}
+
+.hiddenlabel
+{
+	visibility:hidden;
+}
+
+#remembermesection
+{
+	width:678px; 
+	margin:auto; 
+	background-color:#FFFFFF;
+	padding:5px 15px 15px 5px;
+	/*border:solid 1px #000000;*/
+}
+
+#remembermesection p.shiftright
+{
+	margin: 5px 0px 10px 269px;
+}
+
+#remembermesection .fakelink
+{
+	text-decoration:underline;
+	font-size: 13px;
+	font-weight:bold;
+}
+
+/* credit card details page elements */
+
+.ccdentry_leftside
+{
+	width:320px;
+	float:left;
+	border:1px solid #747577;
+}
+
+.ccdentry_leftside
+{
+	font-weight:bold;	
+}
+
+.ccdentry_rightside
+{	
+	width:350px;
+	float:right;
+}
+
+.paymentinformationboxname 
+{
+	font-size:12pt;
+	font-weight:bold;
+	text-align:center;
+	background-color:#FFFFFF;
+	position:relative;
+	left:20px;
+	top:-10px;
+	width:243px;
+	height:25px;
+	border:1px solid #747577;
+	padding-top:5px;
+}
+
+#paymentinformationboxstyle
+{
+	background-color:#FFFFFF;
+	width:346px;
+	border:1px solid #747577;
+	/*float:left;*/
+	height:330px;
+	text-align:left;
+}
+
+.PaymentPage_PaymentDetails
+{
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.PaymentPage_PaymentDetails input
+{
+	width:165px;
+}
+
+.PaymentPage_PaymentDetails select
+{
+	width:170px;
+}
+
+#idealpaymentinformationboxstyle
+{
+	background-color:#FFFFFF;
+	width:435px;
+	border:1px solid #747577;
+	text-align:left;
+}
+
+#accesscardinformationboxname
+{
+	font-size:12pt;
+	font-weight:bold;
+	text-align:center;
+	background-color:#FFFFFF;
+	position:relative;
+	left:20px;
+	top:-10px;
+	width:243px;
+	height:25px;
+	border:1px solid #747577;
+	padding-top:5px;
+}
+
+#accesscardinformationboxstyle
+{
+	background-color:#FFFFFF;
+	width:346px;
+	border:1px solid #747577;
+	height:270px;
+	text-align:left;
+	
+}
+
+#accesscardinformationboxstyle .shiftright
+{
+	text-align:right;
+	font-size:9pt;
+	margin-right:25px;
+	font-style:italic;
+	margin-bottom:15px;
+}
+
+#yourbookingdetailsbox
+{
+	background-color:#FFFFFF;
+	border: 1px solid #747577;
+	width:200px;
+	height:695px;
+	padding: 2px 10px 10px 10px;
+	text-align:left;
+    padding-top: 10px;
+}
+
+#yourbookingdetailsbox_ft_ln
+{
+	background-color:#FFFFFF;
+	border: 1px solid #747577;
+	width:200px;
+	/*float:left;*/
+	height:520px;
+	padding: 10px 10px 10px 10px;
+	text-align:left;
+	/*margin:auto 40px auto auto;*/
+}
+
+#idealbox
+{
+	background-color:#FFFFFF;
+	border: 1px solid #747577;
+	padding: 10px 10px 10px 10px;
+	text-align:left;
+}
+
+
+#ccdentry_idealtop
+{
+	background-color:#FFFFFF;
+	border: 1px solid #747577;
+	padding: 10px 10px 10px 10px;
+	text-align:left;
+}
+
+#yourbookingdetailsbox h2
+{
+	font-size: 12pt;
+}
+
+#pleaseensuretext
+{
+	font-weight:bold;
+	margin:15px 20px 15px 20px;
+}
+
+fieldset#accesscardinformation
+{
+	border:0px;
+}
+
+#ccdentry_paymentinformation label
+{
+	width:130px;
+	display: block;
+	float: left;
+	text-align:right;
+	padding-right:15px;
+	font-weight:bold;
+}
+
+.ccdentry_accesscardinformation
+{
+	margin:0 0 15px 20px;
+	font-weight:bold;
+}
+
+#parkingspace
+{
+	font-size:16px; 
+	margin:0px 0px 10px 0; 
+	font-weight:bold;
+}
+
+.ccdentry_accesscardinformation label
+{
+	width:130px;
+	display:block;
+	float: left;
+	text-align:right;
+	padding-right:7px;
+	font-weight:bold;
+}
+
+#ccdentry_paymentinformation p.shiftright
+{
+	margin-top:10px;
+	margin-right:25px;
+	margin-bottom:25px;
+    font-style:italic;
+    font-size:9pt;
+    text-align:right;
+}
+
+.personaldetails_mandatoryfields
+{
+	margin-top:15px;
+	margin-bottom:25px;
+    font-style:italic;
+    font-size:9pt;
+    font-weight:normal;
+}
+
+.chk_TermsAndConditions
+{
+	float:left;
+	margin-top:9px;
+}
+
+/*#ccdentry_accesscardinformation p.shiftright
+{
+	margin: 5px 0px 10px 170px;
+	border:solid 1px red;
+}*/
+
+.ccdentry_accesscardinformation p.shiftright
+{
+	margin:10px 0 0 136px;
+}
+
+.ccdentry_accesscardinformation p.termsandconditions label
+{
+	margin:0px 0 0 -5px;
+	width:210px;
+}
+
+#ccdentry_paymentinformation p.shiftright label, #ccdentry_accesscardinformation p.shiftright label, .ccdentry_accesscardinformation p.shiftright label
+{
+	width:180px;
+	float:left;
+	text-align:left;
+	padding-right:10px;
+	font-weight:normal;
+}
+
+#ccdentry_paymentinformation p.shiftright #tccheckbox, #ccdentry_accesscardinformation p.shiftright #tccheckbox, .ccdentry_accesscardinformation p.shiftright #tccheckbox
+{
+	width:20px;
+	height: 50px;
+	float:left;
+	text-align:left;
+	padding-right:10px;
+}
+
+#ccdentry_paymentinformation p.shiftright #tcmessage, .ccdentry_accesscardinformation p.shiftright #tcmessage
+{
+	height:50px;
+	float:left;
+	text-align:left;
+}
+
+#tcmessage
+{
+	margin-left:10px;
+	text-align:left;
+	float:left;
+}
+
+#tcmessage a
+{
+	text-align:left;
+	float:left;
+}
+
+#ccdentry_paymentinformation p, #ccdentry_accesscardinformation p, .ccdentry_accesscardinformation p
+{
+	margin:0 20px 3px 0;
+	padding-bottom: 7px;	
+}
+
+.nb_bookandpaynow
+{
+	float:right;
+	margin-right:15px;
+	margin-top:22px;
+}
+
+#bookingsummary dt
+{
+	font-weight:bold;
+	margin:15px 0px 0px 0px;
+}
+		
+#bookingsummary dd		
+{
+	font-weight: normal;
+	margin:0px 0px 3px 0px;
+}
+
+#ccdentry_paymentinformation a, #yourbookingdetailsbox a
+{
+	text-decoration:underline;
+	font-size:12px;
+}
+
+#ccdpaymentvalue, #ccdsurchargetext
+{
+	float:left;
+	clear:right;
+	font-weight:bold;
+	text-align:right;
+	width:80px;
+}
+
+#ccdsurchargetotal
+{
+	font-weight:bold;
+	width:80px;
+	margin-left:20px;
+}
+
+#ccdpaymentvalue .currency_symbol, #ccdsurchargetext .currency_symbol, #ccdsurchargetotal .currency_symbol
+{
+	/*float: left;*/
+}
+
+/* end of credit card details page elements */
+
+/* confirmation page elements */
+
+.confirmationboxname 
+{
+	font-size:12pt;
+	font-weight:bold;
+	text-align:center;
+	background-color:#FFFFFF;
+	position:relative;
+	left:20px;
+	top:-40px;
+	width:243px;
+	height:25px;
+	border:1px solid #000000;
+	padding-top:5px;
+}
+
+.confirmationboxstyle dl 
+{
+	display: inline-block;
+}
+
+.confirmationboxstyle dt 
+{
+	float: left;
+	clear: left;
+	margin: 0 15px 0 0;
+	padding: 0;
+	width: 120px;
+	font-weight: normal;
+}
+
+.confirmationboxstyle dd 
+{
+	float: left;
+	margin: 0 0 5px 0;
+	width:180px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.confirmationboxstyle p a
+{
+	color: #225FAF;
+}
+
+.confirmationboxstyle h2
+{
+	font-size:12pt;
+	font-weight:bold;
+}
+
+.confirmation_background
+{
+	border:#CCCCCC 2px solid;
+	height:270px;
+	padding:15px;
+}
+
+.customerconfirmation_rightpromo
+{
+	width:293px;
+	/*height:239px;*/
+	float:right;
+}
+
+.customerconfirmation_thankyousection
+{
+	width:320px;
+	/*height:225px;*/
+	padding:0px 0px 0px 0px;
+	float:left;
+}
+
+.confirmationaboutyourchosencarparkboxstyle
+{
+	text-align:left;
+}
+
+.confirmationaboutyourchosencarparkboxstyle h2
+{
+	font-size:12pt;
+	font-weight:bold;
+}
+
+.confirmationaboutyourchosencarparkboxstyle h3
+{
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+		
+.confirmationaboutyourchosencarparkboxstyle p		
+{
+	font-weight: normal;
+	margin:0px 0px 20px 0px;
+}
+
+#confirmationbottomlinksboxstyle
+{
+	background-color:#FFFFFF;
+	width:660px;
+	border:0px;
+	margin:0px;
+	padding:25px 50px 25px 50px;
+}
+
+#confirmationparkmanbottomlinksboxstyle
+{
+	background-color:#FFFFFF;
+	width:660px;
+	border:0px;
+	margin:0px;
+	padding:25px 50px 25px 50px;
+}
+
+.lbl_emailaddress
+{
+	color:#102e7b;
+	font-weight:bold;
+}
+
+.extralinks p
+{
+	margin: 0px 0px 15px 0px;
+	text-align:left;
+}
+
+.extralinks p a
+{
+
+	color: #225FAF;
+}
+
+.confirmation_thanktext
+{
+	font-size:18pt;
+}
+
+.confirmation_airportname
+{
+	color:red;
+	padding-bottom:5px;
+	font-size:18pt;
+}
+
+.dontprintthis
+{
+	margin-top:8px;
+	height:22px;
+}
+
+.customerconfirmation_titles
+{
+    font-size:18pt; 
+    padding-bottom: 3px; 
+}
+
+.customerconfirmation_subheadings
+{
+    font-size:13pt; 
+    padding-top: 12px;
+    width: 315px;
+    padding-bottom:0px;
+}
+
+.customerconfirmation_details 
+{
+    height: auto;
+    width: 320px;
+    float: left;
+}
+
+.customerconfirmation_moredetails 
+{
+    height:auto;
+    width:320px;
+    float: right;
+    word-wrap: break-word;
+    padding-bottom:15px;
+}
+
+/* end of confirmation page elements */
+
+#content
+{
+	width:760px;
+	margin:0px auto 0px auto;
+	background: #A0017E;
+
+}
+
+#main-container
+{
+	width:700px;
+	margin:auto;
+	text-align: left;
+}
+
+/*car park information page elements */
+
+.carparkinformationcontentbox
+{
+	width:758px;
+	background-color:#FFFFFF;
+	/*border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	border-left:1px solid #000000;	*/
+	margin-left:10px;
+	margin-top:10px;
+}
+
+#carparkinformation
+{
+	width:450px;
+	padding:10px 10px 10px 10px;
+	text-align:left;
+	background-color:#FFFFFF;
+	/*float:left;*/
+}
+
+#carparkinformationmap
+{
+	width:280px;
+	/*float:left;*/
+	background-color:#FFFFFF;
+	text-align:center;
+}
+
+#carparkinformation h1
+{
+	font-size:14pt;
+	font-weight: bold;
+}
+
+#carparkinformation dt
+{
+	font-weight:bold;
+	margin:0px 0px 4px 0px;
+}
+		
+#carparkinformation dd		
+{
+	font-weight: normal;
+	margin:0px 0px 10px 0px;
+}
+
+
+/* end of car park information page elements */
+
+/* terms and conditions page elements */
+
+#termsandconditions
+{
+	float:left;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	text-align:left;
+	background-color:#FFFFFF;
+	width:680px;
+}
+
+#termsandconditions .nobullets li
+{
+	list-style-type: none;
+}
+	
+/* end of terms and conditions page elements */
+
+/* error elements */
+
+.errorbox 
+{
+	width: 740px;
+	border: 1px solid #FF0000;
+	float:left;
+	background-color:#FFFFFF;
+}
+
+.errorbox ul
+{
+	margin: 0px 0px 0px 20px;
+	padding: 10px 10px 10px 10px;
+	list-style-type:disc;
+}
+
+.errorbox li 
+{
+	margin: 2px 2px 2px 2px;
+}
+	
+/* end of error elements */
+
+/* help and faqs page elements */
+
+#helpandfaqs
+{
+	float:left;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	text-align:left;
+	background-color:#FFFFFF;
+}
+
+#helpandfaqs h1
+{
+	font-size:14pt;
+	font-weight:bold;
+}
+
+#helpandfaqs h2
+{
+	font-size: 12pt;
+	font-weight:bold;
+}
+
+#helpandfaqs dl 
+{
+	display: inline-block;
+}
+
+#helpandfaqs dt 
+{
+	float: left;
+	clear: left;
+	margin: 0 28px 0 0;
+	padding: 0;
+	width: 208px;
+	font-weight: normal;
+}
+
+#helpandfaqs dd 
+{
+	float: left;
+	margin: 0 0 5px 0;
+	width:390px;
+	font-weight:bold;
+
+}
+
+/* end of help and faqs page elements */
